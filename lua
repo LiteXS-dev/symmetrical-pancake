@@ -744,7 +744,7 @@ end)
 
 local HBE = Tabs.Main:AddRightGroupbox('HBE')
 
-local size = 5
+local size = 3
 local hitboxColor = Color3.new(0, 1, 1)
 local visualizeHitbox = false
 local hitboxExpanderEnabled = false
@@ -785,7 +785,7 @@ HBE:AddToggle('HitboxExpanderToggle', {
 HBE:AddSlider('HitboxSizeSlider', {
     Text = 'Hitbox Size',
     Default = 10,
-    Min = 5,
+    Min = 3,
     Max = 40,
     Rounding = 0,
     Callback = function(value)
